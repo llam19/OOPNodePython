@@ -95,12 +95,12 @@ const MainMenu = () => {
         Withdraw
       </button>
       <button
-  className="btn btn-info"
-  onClick={() => navigate(`/transactions/${selectedAccountId}`)}
-  disabled={!selectedAccountId}
->
-  View Transactions
-</button>
+        className="btn btn-info"
+        onClick={() => navigate(`/transactions/${selectedAccountId}`)}
+        disabled={!selectedAccountId}
+      >
+        View Transactions
+      </button>
 
     </div>
   );
